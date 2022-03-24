@@ -1,31 +1,36 @@
 body {
+  background-color: #74959a;
   margin: 0px;
+  text-align: center;
 }
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 p {
-  
 }
-.top-container {
-  background-color: #74959a;
-  height: 200px;
-  width: 200px;
-  border: solid 10px;
-  padding: 20px;
-}
+
 .middle-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  border: solid 20px;
-  margin-left: 260px;
+  width: 100px;
 }
 .bottom-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  margin-left: 500px;
-  border: solid 10px;
+  width: 100px;
+}
+#img-cloud1 {
+  display: inline;
+  position: relative;
+  
+  top: 180px;
+ 
+}
+#img-cloud2 {
+  display: inline;
+  position: relative;
+ 
+  top: 230px;
+ }
+#img-mountain {
+  display: inline-block   ;
+  position: absolute;
+  left: 28%;
 }
