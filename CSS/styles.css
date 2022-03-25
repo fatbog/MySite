@@ -2,35 +2,75 @@ body {
   background-color: #74959a;
   margin: 0px;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
+
 h1 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
 }
-p {
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-  width: 100px;
-}
-.bottom-container {
-  width: 100px;
-}
-#img-cloud1 {
-  display: inline;
-  position: relative;
   
-  top: 180px;
- 
 }
-#img-cloud2 {
-  display: inline;
-  position: relative;
- 
-  top: 230px;
- }
-#img-mountain {
-  display: inline-block   ;
+
+.bottom-container {
+  
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
   position: absolute;
-  left: 28%;
+  right: 300px;
+  top: 50px;
+  
+}
+.bottom-cloud {
+ position: absolute;
+ left: 300px;
+ bottom: 300px;
+}
+
+.img-mountain {
+
+}
+.profile-picture{
+  margin-top: 10px;
+  height: 200px;
+}
+
+.bio{
+  margin: 0 10%;
+}
+.skill-programming{
+
+ height: 100px;
+  border-radius: 5%;
+}
+.skill-cad{
+
+  height: 100px;
+}
+.skill-solidworks{
+  height: 100px;
+}
+.skill-row{
+  margin: 0 10%;
 }
