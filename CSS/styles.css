@@ -1,35 +1,92 @@
 body {
-  background-color: #74959a;
+  background-color: #f6f8f8;
   margin: 0px;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
+  font-size: 100%;
 }
 
 h1 {
-  margin-top: 0px;
-  font-family: 'Sacramento', cursive;
-  font-size: 5em;
+  margin: 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: bold;
+  margin: 0 auto;
 }
-h3{
-  font-family: 'Montserrat', sans-serif;
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  margin: 0 auto;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3e728b;
+  border-width: 10px;
+  width: 5%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .top-container {
   background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
+  position: initial;
+  margin: 0 auto 0 auto;
 }
 
-.middle-container {
-  
+.nav-bar {
+  background-color: rgb(199, 243, 243);
+  width: 100%;
+  display: flex;
+  position: fixed;
+  margin-top: -50px;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 0.3rem;
+ }
+.nav-bar:hover{
+  top: 50px;
+  transition: 0.5s;
 }
 
-.bottom-container {
-  
+.nav-bar a {
+  font-size: 1.5rem;
+  padding: 0 1rem 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
+  text-decoration: none;
+}
+
+#nav-center {
+  margin-left: 0rem;
+  text-align: center;
+}
+
+.skill-level{
+  margin: 0 auto 0 auto;
+  line-height: 1.5;
+}
+
+.middle-container {}
+
+.bio {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+  line-height: 2;
 }
 
 .pro {
@@ -37,40 +94,120 @@ h3{
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-  
+  position: inherit;
+  margin-left: 37.25rem;
+  padding-top: 4rem;
 }
+
 .bottom-cloud {
- position: absolute;
- left: 300px;
- bottom: 300px;
+  position: absolute;
+  left: 15.75rem;
+  bottom: 15.75rem;
 }
 
 .img-mountain {
-
+  height: 25rem;
 }
-.profile-picture{
-  margin-top: 10px;
+
+.block {
+  position: block;
+}
+
+.profile-picture {
+  margin: 1rem auto 1rem auto;
   height: 200px;
 }
 
-.bio{
-  margin: 0 10%;
-}
-.skill-programming{
-
- height: 100px;
+/*------------------ TOP --------------------- */
+.skill-programming {
+  height: 6.5rem;
+  width: 6.5rem;
   border-radius: 5%;
+  float: left;
+  margin-right: 30px;
 }
-.skill-cad{
 
+.skill-cad {
+  width: 6.5rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-solidworks {
+  width: 6.5rem;
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 0px auto;
+  text-align: left;
+  line-height: 2;
+  text-align: justify;
+}
+
+.code-skills-description {
+  clear: left;
+}
+
+.cad-skills-description {
+  clear: left;
+}
+
+.solidworks-skills-description {
+  clear: left;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: #02c7c7;
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem auto 1rem auto;
+  font-weight: bold;
+}
+
+button:hover {
+  height: 29.5px;
+  width: 119.5px;
+  color: #049191;
+}
+
+#beer {
+  font-size: 30px;
+}
+.parag-more{
+  margin-bottom: 2.5rem;
+}
+.parag-text {
+  margin: 0 auto 0 auto;
+  line-height: 1;
+}
+
+/*-------------------- BOTTOM ---------------- */
+.bottom-container {
+  background-color: #66bfbf;
   height: 100px;
 }
-.skill-solidworks{
-  height: 100px;
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
-.skill-row{
-  margin: 0 10%;
+
+a:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+.footer-link {
+  text-align: center;
+  margin: 25px 20px 0 0;
+  display: inline-block;
+}
+
+.end-line {
+  float: bottom;
 }
