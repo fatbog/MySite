@@ -1,6 +1,6 @@
 body {
-  background-color: #f6f8f8;
-  margin: 0px;
+  background-color: #aadbd2;
+  margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
   font-size: 100%;
@@ -11,6 +11,7 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   color: #66bfbf;
+  height: 100px;
 }
 
 h2 {
@@ -18,7 +19,7 @@ h2 {
   font-size: 2rem;
   color: #66bfbf;
   font-weight: bold;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 h3 {
@@ -33,54 +34,69 @@ hr {
   border-color: #3e728b;
   border-width: 10px;
   width: 5%;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 60px;
+  margin-top: 60px
 }
 
 .top-container {
   background-color: #e4f9f5;
-  position: initial;
-  margin: 0 auto 0 auto;
+  position: relative;
+  margin: 0 0;
+  height: 620px;
 }
 
 .nav-bar {
-  background-color: rgb(199, 243, 243);
-  width: 100%;
-  display: flex;
+  display: inline;
   position: fixed;
-  margin-top: -50px;
-  top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  height: 50px;
-  border-radius: 0.3rem;
- }
-.nav-bar:hover{
-  top: 50px;
-  transition: 0.5s;
+  z-index: 2;
 }
 
-.nav-bar a {
-  font-size: 1.5rem;
-  padding: 0 1rem 0 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+ul {
+  background-color: #78dec9;
+  margin: 0 0;
+  position: fixed;
+  display: block;
+  float: left;
   width: 100%;
+  padding: 0;
+  height: 2rem;
+  left: 0;
+}
+
+li {
+  float: left;
+  display: block;
+  font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #78dec9;
+  width: 200px;
+  height: 32px;
+  font-weight: bold;
+}
+
+li a {
   text-decoration: none;
+  color: white;
 }
 
-#nav-center {
-  margin-left: 0rem;
-  text-align: center;
+li:hover {
+  background-color: #66bfbf;
 }
 
-.skill-level{
+li a:hover {
+  color: white;
+}
+
+.contacts {
+  float: right;
+  right: 0;
+}
+
+.skill-level {
   margin: 0 auto 0 auto;
   line-height: 1.5;
 }
-
-.middle-container {}
 
 .bio {
   margin: auto;
@@ -94,27 +110,27 @@ hr {
 }
 
 .top-cloud {
+  height: 4rem;
   position: inherit;
   margin-left: 37.25rem;
-  padding-top: 4rem;
+  margin-top: 2.3rem;
 }
 
 .bottom-cloud {
+  height: 5rem;
   position: absolute;
-  left: 15.75rem;
+  left: 13.75rem;
   bottom: 15.75rem;
 }
 
 .img-mountain {
-  height: 25rem;
-}
-
-.block {
-  position: block;
+  height: 25.5rem;
+  position: relative;
+  bottom: 8rem;
 }
 
 .profile-picture {
-  margin: 1rem auto 1rem auto;
+  margin: 3rem auto 1rem auto;
   height: 200px;
 }
 
@@ -141,8 +157,7 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 0px auto;
-  text-align: left;
+  margin: 100px auto 0 auto;
   line-height: 2;
   text-align: justify;
 }
@@ -159,6 +174,10 @@ hr {
   clear: left;
 }
 
+.get-in{
+  margin-bottom: 3rem;
+}
+
 button {
   height: 30px;
   width: 120px;
@@ -167,6 +186,7 @@ button {
   font-family: "Montserrat", sans-serif;
   margin: 1rem auto 1rem auto;
   font-weight: bold;
+  color: white;
 }
 
 button:hover {
@@ -175,12 +195,14 @@ button:hover {
   color: #049191;
 }
 
-#beer {
+.beer {
   font-size: 30px;
 }
-.parag-more{
-  margin-bottom: 2.5rem;
+
+.parag-more {
+  margin-bottom: 5rem;
 }
+
 .parag-text {
   margin: 0 auto 0 auto;
   line-height: 1;
@@ -197,17 +219,40 @@ a {
   color: #11999e;
 }
 
+.btn:hover {
+  font-weight: bold;
+  color: black;
+}
+
 a:hover {
   font-weight: bold;
-  color: blue;
+  color: white;
 }
 
 .footer-link {
+  font-weight: bold;
   text-align: center;
   margin: 25px 20px 0 0;
   display: inline-block;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.resume {
+  margin-top: 35px;
+  left: 800px;
+  width: 150px;
+  right: 200px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+.resume:hover {
+  width: 150px;
+  color: grey;
 }
 
 .end-line {
-  float: bottom;
+  float: inherit;
+  font-style: normal;
 }

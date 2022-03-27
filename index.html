@@ -10,11 +10,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet" />
 </head>
+<div class="nav-bar">
+  <ul id="navi">
+    <li> <a href="#top-container"><span>Home</span></a></li>
+    <li> <a href="#middle-container"><span>About Me</span></a></li>
+    <li> <a href="#myskills"><span>My Skills</span></a></li>
+    <li class="contacts"><a href="#contact-me"><span>Contact Me</span></a></li>
+  </ul>
+</div>
 
 <body>
- 
-  <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
+  <div class="top-container" id="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image" />
     <h1>I'm Vince.</h1>
     <p>
     <h2> a <span class="pro">pro</span>grammer / draftsman.</h2>
@@ -22,14 +29,7 @@
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image" />
     <img class="img-mountain" src="images/mountain.png" alt="mountain-image" />
   </div>
-  <div class="nav-bar" id= "nav-center">
-    <a href="#">Home</a>
-    <a href="#">About Me</a>
-    <a href="#">My Skills</a>
-    <a href="#">Contact Me</a>
-  </div>
- 
-  <div class="middle-container">
+  <div class="middle-container" id="middle-container">
     <div class="profile">
       <img class="profile-picture" src="images\circlepic.png" alt="" />
       <h2>Hello.</h2>
@@ -44,52 +44,58 @@
         </p>
       </div>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
-        <img class="skill-programming" src="images\code.png" alt="skills" />
-        <h3>Web Developement</h3>
-                <p class="skill-level">⭐⭐⭐⭐⭐</p>
-        <p class="code-skills-description">
-          Design and update websites and online applications using various programming languages and design tools. Also, Creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback.
-        </p>
-      </div><br>
-      <div class="skill-row">
-        <img class="skill-cad" src="images/cad.png" alt="" />
-        <h3>Autocad Designs</h3>
-           <p class="skill-level">⭐⭐⭐⭐⭐</p>
-        <p class="cad-skills-description">
-          Draft plans and detailed drawings used for structures, installations, or other construction projects. Review and revise rough sketches, drawings, designs, specifications, and other relevant data given by project head to ensure that they
-          apply and conform to design concepts.
-        </p>
-      </div>
+  </div>
+  <hr id="myskills">
+  <div class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-row">
+      <img class="skill-programming" src="images\code.png" alt="skills" />
+      <h3>Web Developement</h3>
+      <p class="skill-level">⭐⭐⭐⭐⭐</p>
+      <p class="code-skills-description">
+        Design and update websites and online applications using various programming languages and design tools. Also, Creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback.
+      </p>
     </div><br>
     <div class="skill-row">
-      <img class="skill-solidworks" src="images/solidworks.png" alt="" />
-      <h3>SolidWorks</h3>
+      <img class="skill-cad" src="images/cad.png" alt="" />
+      <h3>Autocad Designs</h3>
       <p class="skill-level">⭐⭐⭐⭐⭐</p>
-      <p class="solidworks-skills-description">
-        Create and Develop new product design based on project request. Design products with emphasis on aesthetic appeal. Creating 3D CAD models and drawings. Managing design of multiple projects while maintaining accuracy.
+      <p class="cad-skills-description">
+        Draft plans and detailed drawings used for structures, installations, or other construction projects. Review and revise rough sketches, drawings, designs, specifications, and other relevant data given by project head to ensure that they
+        apply and conform to design concepts.
       </p>
     </div>
   </div><br>
-  <hr />
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
+  <div class="skill-row">
+    <img class="skill-solidworks" src="images/solidworks.png" alt="" />
+    <h3>SolidWorks</h3>
+    <p class="skill-level">⭐⭐⭐⭐⭐</p>
+    <p class="solidworks-skills-description">
+      Create and Develop new product design based on project request. Design products with emphasis on aesthetic appeal. Creating 3D CAD models and drawings. Managing design of multiple projects while maintaining accuracy.
+    </p>
+  </div>
+  <br>
+
+  <hr id="contact-me">
+
+  <div>
+    <h2 class="get-in">Get In Touch</h2>
     <h3 class="parag-more">If you want to know me more.</h3>
     <p class="parag-text">
       Love to know me better? Let's talk more about me.
     </p>
-    <p class="parag-text">We can do it also while drinking some <span id="beer">🍻</span>.</p>
-    <a class="btn" href="mailto:aspharine1991@gmail.com"><button>CLICK ME!</button></a>
+    <p class="parag-text">We can do it also while drinking some <span class="beer">🍻</span>.</p>
+    <a href="mailto:aspharine1991@gmail.com"><button class="btn">CLICK ME!</button></a>
   </div>
   </div>
 
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/vincent-flores-2b0b30135/" target="_blank">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/fatbog1991" target="_blank">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/" target="_blank">Website</a>
+    <a class="download-me" href="images/VinceCVupdated.pdf" target="_blank"><button class="resume">Download Resume</button></a>
+
+
+    </form>
     <p class="end-line">©2022 No Copyright</p>
   </div>
 </body>
